@@ -73,8 +73,9 @@ entram como variáveis de ambiente desse ambiente, sem passar pelo chat.
    - `GOOGLE_REFRESH_TOKEN` = campo `refresh_token`
 3. Salve.
 
-Se não encontrar essa tela, avise na sessão. Dá para configurar as variáveis
-pela API da rotina, com a ressalva de que os valores passam pela sessão.
+A API das rotinas não aceita variáveis por rotina (a configuração é
+replicada a cada disparo), então o ambiente é o único lugar para elas.
+Se não encontrar essa tela, avise na sessão.
 
 ## 8. Avisar na sessão do Claude
 
